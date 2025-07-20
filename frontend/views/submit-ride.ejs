@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="/submit-ride" method="POST">
+  <input type="text" name="location" placeholder="Enter your location" required />
+  <input type="text" name="destination" placeholder="Enter destination" required />
+  <select name="role">
+    <option value="client">Client</option>
+    <option value="driver">Driver</option>
+  </select>
+  <button type="submit">Submit Ride</button>
+</form>
+
+</body>
+</html>
